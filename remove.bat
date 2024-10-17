@@ -11,7 +11,6 @@ if not "%scriptPath%"=="%path_no_spaces%" (
 )
 
 echo Запустите файл с правами администратора.
-echo Нажмите любую клавишу, чтобы продолжить удаление
 pause
 
 set SRVCNAME=bypass
