@@ -5,7 +5,7 @@ chcp 65001 >nul
 set scriptPath=%~dp0
 set "path_no_spaces=%scriptPath: =%"
 if not "%scriptPath%"=="%path_no_spaces%" (
-    echo Путь содержит пробелы. переместите скрипт в директорию без пробелов.
+    echo Переместите скрипт в директорию без пробелов.
     pause
     exit /b
 )
